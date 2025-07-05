@@ -113,11 +113,4 @@ We welcome pull requests and discussions! Please open an issue first to propose 
 
 ```
 
----
 
-Let me know if you'd like:
-- A `CONTRIBUTING.md` template
-- A sample `LICENSE`
-- Deployment instructions (Vercel, Firebase, or Railway)
-- Custom shields or badges (build, version, license, etc.)
-```
