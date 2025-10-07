@@ -109,10 +109,11 @@ jobs:
 
           # Assignee exemptions
           exempt-assignees: |
-            bahadiryavas
-            ececebeci
-            kdemirel849
-            tuğbacebeci
+            Bahoyvs
+            EceTugbaCebeci
+            keremdemirell
+            erdemerdogdu
+            ErdemAtila
 
           # Draft PRs are automatically exempt
           exempt-draft-pr: true
