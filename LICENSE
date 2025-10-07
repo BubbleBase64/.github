@@ -1,18 +1,42 @@
-MIT License
+PROPRIETARY LICENSE
 
-Copyright (c) 2025 Bubbles News Platform
+Copyright (c) 2025-2026 Bubbles News Platform
 Bilkent University Senior Project
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+All rights reserved.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This software and associated documentation files (the "Software") are the proprietary 
+property of the Bubbles development team and Bilkent University. The Software is 
+protected by copyright laws and international copyright treaties, as well as other 
+intellectual property laws and treaties.
 
+RESTRICTED USE:
+This Software is licensed for academic and educational purposes only as part of a 
+senior graduation project at Bilkent University. Any use, reproduction, or 
+distribution of this Software outside of the academic context requires explicit 
+written permission from the copyright holders.
+
+PERMITTED USES:
+- Academic research and evaluation by faculty and approved mentors
+- Educational purposes within Bilkent University coursework
+- Portfolio demonstration for academic and career purposes by team members
+- Code review and assessment by academic advisors and Amazon mentorship program
+
+PROHIBITED USES:
+- Commercial use or distribution
+- Public redistribution or open source publication
+- Modification for commercial purposes
+- Use in derivative commercial products
+
+ACADEMIC ATTRIBUTION:
+This project is developed as part of a senior graduation project at Bilkent University.
+If you reference this software in academic work, please cite:
+
+Bubbles: AI-Powered News Platform for Critical News Consumption
+İlhan Bahadır Yavaş, Ece Tuğba Cebeci, Hasan Kerem Demirel, Erdem Erdoğdu, İbrahim Erdem Atila
+Bilkent University, Information Systems and Technologies Department, 2026
+
+DISCLAIMER:
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -21,12 +45,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
-
-ACADEMIC ATTRIBUTION:
-This project is developed as part of a senior graduation project at Bilkent University.
-If you use this software in academic work, please cite:
-
-Bubbles: AI-Powered News Platform for Critical News Consumption
-Bahadır Yavas, Ece Cebeci, Kürşad Demirel, Tuğba Cebeci
-Bilkent University, Computer Engineering Department, 2025
+For licensing inquiries, contact: team@bubblesnews.com

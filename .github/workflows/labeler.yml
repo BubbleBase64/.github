@@ -45,15 +45,15 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: |
-            🎉 **Welcome to Bubbles!** 
+            🎉 **Welcome to the Bubbles Academic Project!** 
             
-            Thank you for your first contribution to our AI-powered news platform! 
+            Thank you for your contribution to our AI-powered news platform academic project! 
             
             Here's what happens next:
-            - Our team will review your PR within 48 hours
+            - Our team will review your contribution within 48 hours
             - Make sure all checks pass (they should run automatically)
-            - Feel free to ask questions in the comments
+            - Feel free to ask questions in the comments or contact the team directly
             
             Please ensure you've read our [Contributing Guide](https://github.com/bubbles-org/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/bubbles-org/.github/blob/main/CODE_OF_CONDUCT.md).
             
-            Thanks for helping us build better news consumption tools! 🫧✨
+            Thanks for helping us build innovative academic research tools! 🫧✨

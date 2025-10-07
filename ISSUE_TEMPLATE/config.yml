@@ -1,14 +1,14 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 💬 Ask a Question or Start a Discussion
-    url: https://github.com/bubbles-org/discussions
-    about: Ask general questions, share ideas, or discuss the Bubbles platform with the community
+  - name: 🎓 Academic Advisor Consultation
+    url: mailto:team@bubblesnews.com
+    about: Contact academic advisors for project guidance and academic questions
   - name: 🔒 Report a Security Vulnerability
     url: mailto:security@bubblesnews.com
-    about: Please report security issues privately via email instead of creating a public issue
-  - name: 📚 Check Documentation
+    about: Please report security issues privately via email instead of creating an issue
+  - name: 📚 Internal Documentation
     url: https://docs.bubblesnews.com
-    about: Browse our comprehensive documentation before creating an issue
+    about: Browse our internal project documentation (team access required)
   - name: 🎓 Bilkent University Project Info
-    url: https://www.bilkent.edu.tr
+    url: https://ctis.bilkent.edu.tr
     about: Learn more about our academic context and graduation project background

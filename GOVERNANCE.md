@@ -9,35 +9,42 @@ Bubbles is an AI-powered news platform designed to transform how people consume 
 ## 🏛️ Governance Structure
 
 ### 🎓 Academic Context
-This project is developed as a **senior graduation project** at **Bilkent University**, Computer Engineering Department, under the mentorship of faculty advisors and the **Amazon Mentorship Program**.
+This project is developed as a **senior graduation project** at **Bilkent University**, Information Systems and Technologies Department, under the mentorship of faculty advisors and the **Amazon Mentorship Program**.
 
 ### 👥 Core Team Structure
 
-#### 🚀 Project Leadership
-- **Project Lead & DevOps**: @bahadiryavas
-  - Overall project direction and strategy
-  - Infrastructure and deployment decisions
-  - Stakeholder coordination
-  - Final decision authority on major architectural choices
+#### 🚀 DevOps & Scrum Master
+- **DevOps & Scrum Master**: @Bahoyvs
+  - Overall deployment pipelines and cloud infrastructure
+  - CI/CD processes and system reliability
+  - Agile workflows and sprint planning coordination
+  - Team coordination and stakeholder management
+  - Final decision authority on infrastructure choices
 
 #### 🎨 Technical Leads
-- **Frontend Lead**: @ececebeci
-  - React/Next.js development decisions
-  - UI/UX implementation strategy
-  - User experience optimization
-  - Frontend architecture decisions
+- **NLP & AI Lead**: @EceTugbaCebeci
+  - AI summarization and bias detection models
+  - NLP algorithm design and optimization
+  - AI ethics and model performance decisions
+  - Machine learning architecture choices
 
-- **Backend Lead**: @kdemirel849  
-  - API design and implementation
+- **Backend Lead**: @keremdemirell
+  - API design and backend services
+  - System communication and integration
   - Database architecture decisions
-  - Server infrastructure choices
-  - Integration strategy
+  - Backend infrastructure choices
 
-- **AI/ML Lead**: @tuğbacebeci
-  - Machine learning model development
-  - NLP algorithm implementation
-  - AI ethics and bias considerations
-  - Model performance optimization
+- **Frontend Lead**: @erdemerdogdu
+  - User interface development
+  - Frontend architecture and user experience
+  - Model output integration into UI
+  - NLP testing and frontend optimization
+
+- **Backend & Integration**: @ErdemAtila
+  - Backend architecture development
+  - News fetching APIs and data pipelines
+  - Frontend-backend integration
+  - System architecture decisions
 
 ---
 
@@ -85,33 +92,40 @@ This project is developed as a **senior graduation project** at **Bilkent Univer
 - **Communication**: Attend team meetings and standups
 - **Learning**: Stay updated with relevant technologies
 
-### 🚀 Project Lead (@bahadiryavas)
-- **Strategic Planning**: Define project roadmap and milestones
-- **Stakeholder Management**: Interface with academic advisors and mentors
-- **DevOps**: Maintain CI/CD pipelines and infrastructure
-- **Coordination**: Ensure cross-team communication and integration
+### 🚀 DevOps & Scrum Master (@Bahoyvs)
+- **Infrastructure Management**: Maintain deployment pipelines and cloud infrastructure
+- **CI/CD Operations**: Oversee continuous integration and deployment processes
+- **System Reliability**: Ensure system scalability and security
+- **Agile Facilitation**: Manage sprint planning and team coordination
 - **Quality Assurance**: Oversee overall project quality and standards
 
-### 🎨 Frontend Lead (@ececebeci)
-- **UI/UX Strategy**: Design and implement user interfaces
-- **Frontend Architecture**: Maintain React/Next.js codebase
-- **User Experience**: Ensure intuitive and accessible interfaces
-- **Performance**: Optimize frontend performance and loading times
-- **Integration**: Coordinate with backend for API integration
+### 🤖 NLP & AI Lead (@EceTugbaCebeci)
+- **Model Development**: Design and train AI summarization and bias detection models
+- **Algorithm Implementation**: Implement and optimize NLP algorithms
+- **AI Ethics**: Ensure responsible AI practices and bias mitigation
+- **Research**: Stay current with AI/ML research and best practices
+- **Performance**: Optimize model accuracy and inference times
 
-### 🏗️ Backend Lead (@kdemirel849)
-- **API Design**: Create and maintain RESTful APIs
+### 🏗️ Backend Lead (@keremdemirell)
+- **API Design**: Create and maintain backend services and APIs
+- **System Integration**: Connect backend services with frontend applications
 - **Database Management**: Design and optimize database schemas
-- **Server Architecture**: Implement scalable backend services
-- **Integration**: Connect various system components
+- **Communication**: Ensure smooth system communication between components
 - **Performance**: Ensure backend scalability and efficiency
 
-### 🤖 AI/ML Lead (@tuğbacebeci)
-- **Model Development**: Create and train ML models
-- **Algorithm Implementation**: Implement NLP and bias detection algorithms
-- **Data Processing**: Handle news data aggregation and processing
-- **AI Ethics**: Ensure responsible AI practices
-- **Research**: Stay current with AI/ML research and best practices
+### 🎨 Frontend Lead (@erdemerdogdu)
+- **UI Development**: Develop user interfaces and user experience
+- **Model Integration**: Integrate AI model outputs into frontend applications
+- **Frontend Architecture**: Maintain frontend codebase and structure
+- **Testing Support**: Assist with NLP testing and validation
+- **Performance**: Optimize frontend performance and user experience
+
+### 🔧 Backend & Integration (@ErdemAtila)
+- **Architecture Development**: Develop backend architecture and system design
+- **API Management**: Manage APIs for news fetching and data pipelines
+- **Integration**: Handle frontend-backend integration challenges
+- **Data Pipelines**: Implement and maintain data processing workflows
+- **System Design**: Contribute to overall system architecture decisions
 
 ---
 
@@ -237,4 +251,4 @@ This governance model will be reviewed and updated as the project evolves. Updat
 **Last Updated**: October 2025  
 **Next Review**: January 2026  
 
-For questions about governance, contact: @bahadiryavas
+For questions about governance, contact: @Bahoyvs

@@ -1,13 +1,24 @@
-# 🫧 Contributing to Bubbles
+# 🫧 Contributing to Bubbles (Academic Project)
 
-Welcome to the Bubbles open-source community! We're excited that you want to contribute to our AI-powered news platform. This guide will help you understand our development process and ensure consistency across all repositories in the Bubbles organization.
+Welcome to the Bubbles development team and academic collaborators! This guide outlines our internal development process and collaboration standards for our proprietary academic project. This documentation serves our team members, academic advisors, mentors, and approved research collaborators.
 
-## 🚀 Quick Start
+## 🎓 Project Context
 
-1. **Fork & Clone**: Fork the repository and clone your fork locally
-2. **Environment Setup**: Follow the setup instructions in the specific repo's README
-3. **Development Config**: Use configs from `bubbles-devops/configs` for consistent code style
-4. **Submit PR**: Create a pull request following our guidelines below
+**Bubbles is a proprietary academic project** developed as a senior graduation project at Bilkent University. While not open source, we maintain professional development standards and welcome collaboration from academic advisors, mentors, and approved research partners.
+
+## 🚀 Getting Started
+
+### 🔐 **Access Requirements**
+1. **Team Members**: Direct repository access via organization membership
+2. **Academic Advisors**: Guest access for review and guidance
+3. **Mentors**: Collaboration access through Amazon mentorship program
+4. **Research Partners**: Case-by-case access with signed agreements
+
+### ⚖️ **Confidentiality & Academic Integrity**
+- All code and documentation are proprietary to Bilkent University and the team
+- Respect academic integrity and intellectual property guidelines
+- External collaborators must sign confidentiality agreements
+- No public distribution or open-source publication without explicit permission
 
 ---
 
@@ -105,6 +116,7 @@ Our template will auto-populate, but include:
 - **Auto-reviewers**: CODEOWNERS will be automatically assigned
 - **Required approvals**: At least 1 approval from a code owner
 - **CI checks**: All automated checks must pass
+- **Academic review**: Major changes may require academic advisor consultation
 - **Merge strategy**: Squash and merge (maintains clean history)
 
 ---
@@ -127,6 +139,7 @@ Our template will auto-populate, but include:
 - **Never commit**: API keys, passwords, or sensitive data
 - **Environment variables**: Use `.env` files (not committed)
 - **Dependencies**: Keep them updated, scan for vulnerabilities
+- **Academic data**: Protect any academic or research data appropriately
 - **Security issues**: Report privately to security@bubblesnews.com
 
 ---
@@ -163,10 +176,11 @@ module.exports = {
 - **Documentation**: Check repo-specific docs first
 
 ### Team Contacts:
-- **Project Lead**: @bahadiryavas
-- **Frontend Lead**: @ececebeci  
-- **Backend Lead**: @kdemirel849
-- **AI/ML Lead**: @tuğbacebeci
+- **DevOps & Scrum Master**: @Bahoyvs
+- **NLP & AI Lead**: @EceTugbaCebeci  
+- **Backend Lead**: @keremdemirell
+- **Frontend Lead**: @erdemerdogdu
+- **Backend & Integration**: @ErdemAtila
 
 ---
 
@@ -198,10 +212,12 @@ This project follows our [Code of Conduct](CODE_OF_CONDUCT.md). By participating
 
 ---
 
-## 📜 License
+## 📜 License & Intellectual Property
 
-By contributing to Bubbles, you agree that your contributions will be licensed under the same license as the project (see LICENSE file in each repository).
+By contributing to Bubbles, you agree that your contributions will be subject to the same proprietary license as the project (see LICENSE file in each repository). All intellectual property remains with Bilkent University and the development team.
+
+**Important**: This is a proprietary academic project. All contributions become part of the academic submission and are subject to university intellectual property policies.
 
 ---
 
-Thank you for contributing to Bubbles! Together, we're building a more informed and critically thinking society. 🫧✨
+Thank you for contributing to Bubbles! Together, we're building innovative technology for our academic project and creating a foundation for future research in AI-powered news consumption. 🫧✨

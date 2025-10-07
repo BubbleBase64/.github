@@ -3,65 +3,65 @@
 # More info: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 # Global owners - these users are added as reviewers for ALL PRs unless overridden
-*        @bahadiryavas @ececebeci
+*        @Bahoyvs @EceTugbaCebeci
 
 # Backend and API development
-/backend/*             @kdemirel849
-/api/*                 @kdemirel849
-/server/*              @kdemirel849
-**/backend/**          @kdemirel849
-**/api/**              @kdemirel849
+/backend/*             @keremdemirell @ErdemAtila
+/api/*                 @keremdemirell @ErdemAtila
+/server/*              @keremdemirell @ErdemAtila
+**/backend/**          @keremdemirell @ErdemAtila
+**/api/**              @keremdemirell @ErdemAtila
 
 # AI/ML models and algorithms
-/ai/*                  @tuğbacebeci
-/ml/*                  @tuğbacebeci  
-/models/*              @tuğbacebeci
-**/ai/**               @tuğbacebeci
-**/models/**           @tuğbacebeci
-**/nlp/**              @tuğbacebeci
+/ai/*                  @EceTugbaCebeci
+/ml/*                  @EceTugbaCebeci  
+/models/*              @EceTugbaCebeci
+**/ai/**               @EceTugbaCebeci
+**/models/**           @EceTugbaCebeci
+**/nlp/**              @EceTugbaCebeci @erdemerdogdu
 
 # Frontend and UI
-/frontend/*            @ececebeci
-/web/*                 @ececebeci
-/ui/*                  @ececebeci
-/src/**/*.tsx          @ececebeci
-/src/**/*.jsx          @ececebeci
-/src/**/*.vue          @ececebeci
-**/frontend/**         @ececebeci
-**/components/**       @ececebeci
+/frontend/*            @erdemerdogdu
+/web/*                 @erdemerdogdu
+/ui/*                  @erdemerdogdu
+/src/**/*.tsx          @erdemerdogdu
+/src/**/*.jsx          @erdemerdogdu
+/src/**/*.vue          @erdemerdogdu
+**/frontend/**         @erdemerdogdu @ErdemAtila
+**/components/**       @erdemerdogdu
 
 # DevOps and Infrastructure
-/docker/*              @bahadiryavas
-/kubernetes/*          @bahadiryavas
-/.github/workflows/*   @bahadiryavas
-/infrastructure/*      @bahadiryavas
-**/Dockerfile         @bahadiryavas
-**/docker-compose*    @bahadiryavas
-**/k8s/**             @bahadiryavas
+/docker/*              @Bahoyvs
+/kubernetes/*          @Bahoyvs
+/.github/workflows/*   @Bahoyvs
+/infrastructure/*      @Bahoyvs
+**/Dockerfile         @Bahoyvs
+**/docker-compose*    @Bahoyvs
+**/k8s/**             @Bahoyvs
 
 # Database schemas and migrations
-/database/*            @kdemirel849
-/migrations/*          @kdemirel849
-**/database/**         @kdemirel849
-**/migrations/**       @kdemirel849
-**/*.sql               @kdemirel849
+/database/*            @keremdemirell @ErdemAtila
+/migrations/*          @keremdemirell @ErdemAtila
+**/database/**         @keremdemirell @ErdemAtila
+**/migrations/**       @keremdemirell @ErdemAtila
+**/*.sql               @keremdemirell @ErdemAtila
 
 # Documentation (all team members should review)
-/docs/*                @bahadiryavas @ececebeci @kdemirel849 @tuğbacebeci
-README.md              @bahadiryavas @ececebeci
-CONTRIBUTING.md        @bahadiryavas @ececebeci
-**/README.md           @bahadiryavas @ececebeci
+/docs/*                @Bahoyvs @EceTugbaCebeci @keremdemirell @erdemerdogdu @ErdemAtila
+README.md              @Bahoyvs @EceTugbaCebeci
+CONTRIBUTING.md        @Bahoyvs @EceTugbaCebeci
+**/README.md           @Bahoyvs @EceTugbaCebeci
 
 # Security and sensitive configs (requires multiple approvals)
-/security/*            @bahadiryavas @kdemirel849
-/.env*                 @bahadiryavas @kdemirel849
-/config/security/*     @bahadiryavas @kdemirel849
-**/security.md         @bahadiryavas @kdemirel849
+/security/*            @Bahoyvs @keremdemirell
+/.env*                 @Bahoyvs @keremdemirell
+/config/security/*     @Bahoyvs @keremdemirell
+**/security.md         @Bahoyvs @keremdemirell
 
 # Package management and dependencies
-package.json           @bahadiryavas @ececebeci
-package-lock.json      @bahadiryavas @ececebeci
-requirements.txt       @bahadiryavas @kdemirel849
-poetry.lock            @bahadiryavas @kdemirel849
-Pipfile*               @bahadiryavas @kdemirel849
-**/package.json        @bahadiryavas @ececebeci
+package.json           @Bahoyvs @erdemerdogdu
+package-lock.json      @Bahoyvs @erdemerdogdu
+requirements.txt       @Bahoyvs @EceTugbaCebeci
+poetry.lock            @Bahoyvs @EceTugbaCebeci
+Pipfile*               @Bahoyvs @EceTugbaCebeci
+**/package.json        @Bahoyvs @erdemerdogdu

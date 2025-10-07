@@ -1,10 +1,10 @@
-# 🫧 Bubbles Community Code of Conduct
+# 🫧 Bubbles Academic Team Code of Conduct
 
 ## 🌟 Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
+We as team members, academic collaborators, and advisors pledge to make participation in our academic project a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
 
-We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community focused on creating technology that promotes critical thinking and informed news consumption.
+We pledge to act and interact in ways that contribute to a professional, inclusive, and productive academic environment focused on creating technology that promotes critical thinking and informed news consumption for our graduation project.
 
 ---
 
@@ -56,12 +56,11 @@ We pledge to act and interact in ways that contribute to an open, welcoming, div
 - Undermining the project's mission of promoting critical thinking
 - Attempting to manipulate news content for personal or political gain
 
-**🏫 Academic Misconduct**
-- Plagiarism or misrepresentation of others' work
-- Violating academic integrity standards
-- Sharing private academic information without permission
-- Interfering with the academic evaluation process
-- Misrepresenting project goals or achievements
+**🔒 Academic Confidentiality**
+- Protecting proprietary project information and code
+- Respecting intellectual property and non-disclosure agreements
+- Maintaining confidentiality of internal discussions and decisions
+- Following university policies on academic project confidentiality
 
 **💼 Professional Misconduct**
 - Unwelcome sexual attention or advances
@@ -72,14 +71,15 @@ We pledge to act and interact in ways that contribute to an open, welcoming, div
 
 ---
 
-## 🛡️ Our Responsibilities
+### 🛡️ **Our Responsibilities**
 
-### 👥 **Community Leaders**
-Community leaders (project maintainers, team leads, faculty advisors) are responsible for:
+### 👥 **Team Leaders and Academic Supervisors**
+Team leaders, academic advisors, and faculty supervisors are responsible for:
 - Clarifying and enforcing standards of acceptable behavior
 - Taking appropriate and fair corrective action for violations
-- Removing, editing, or rejecting comments, commits, code, wiki edits, issues, and other contributions that violate this Code of Conduct
-- Communicating reasons for moderation decisions when appropriate
+- Moderating discussions and maintaining professional standards
+- Protecting intellectual property and academic integrity
+- Communicating reasons for disciplinary decisions when appropriate
 
 ### 🎓 **Academic Context**
 Given our academic setting, additional responsibilities include:

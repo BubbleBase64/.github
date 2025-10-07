@@ -2,7 +2,9 @@
 
 ## 🛡️ Bubbles Security Philosophy
 
-The Bubbles platform handles sensitive user data including news consumption patterns, personalization preferences, and user interactions. We take security seriously and are committed to protecting our users' privacy and data.
+The Bubbles platform handles sensitive user data including news consumption patterns, personalization preferences, and user interactions. W### 🎓 **Academic Advisors**
+- **Bilkent University**: Our faculty advisors from Information Systems and Technologies Department provide security guidance
+- **Amazon Mentorship**: Additional security expertise through mentorship programake security seriously and are committed to protecting our users' privacy and data.
 
 ---
 
@@ -194,9 +196,10 @@ Before submitting PRs, please ensure:
 ## 📞 Security Team Contacts
 
 ### 🏢 Bubbles Security Team
-- **Lead**: @bahadiryavas (Project Lead & DevOps)
-- **Backend Security**: @kdemirel849 (Backend Lead)
-- **Infrastructure**: @bahadiryavas (DevOps & Infrastructure)
+- **DevOps & Scrum Master**: @Bahoyvs (DevOps & Infrastructure)
+- **Backend Security**: @keremdemirell (Backend Lead)
+- **Backend & Integration**: @ErdemAtila (Architecture & Integration)
+- **Infrastructure**: @Bahoyvs (DevOps & Infrastructure)
 
 ### 🎓 Academic Advisors
 - **Bilkent University**: Our faculty advisors provide security guidance
