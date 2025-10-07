@@ -1,8 +1,8 @@
-# 🫧 Bubbles Organization – Community Health Repository
+# 🫧 Bubbles Organization – Academic Project Repository
 
-Welcome to the **`.github`** repository for the Bubbles organization! This special repository contains organization-wide community health files, templates, and policies that apply to all repositories in the Bubbles ecosystem.
+Welcome to the **`.github`** repository for the Bubbles organization! This repository contains organization-wide community health files, templates, and policies that apply to all repositories in the Bubbles ecosystem.
 
-> **🎓 Academic Project**: This is a senior graduation project at Bilkent University, supported by the Amazon mentorship program.
+> **🎓 Proprietary Academic Project**: This is a senior graduation project at Bilkent University, developed as proprietary software with Amazon mentorship program support.
 
 ## 🌐 About Bubbles
 
@@ -15,36 +15,36 @@ Bubbles is an innovative, AI-enhanced web platform that transforms the way peopl
 
 ## 📋 What's in This Repository
 
-This repository contains organization-wide templates and policies that automatically apply to all Bubbles repositories:
+This repository contains internal development standards and policies for our academic team:
 
 ### 🛠️ **Templates & Workflows**
 - **`PULL_REQUEST_TEMPLATE.md`** - Standard PR format for all repos
 - **`ISSUE_TEMPLATE/`** - Modern YAML-based issue templates (bug reports, feature requests)
 - **`.github/workflows/`** - Automated labeling and maintenance workflows
 
-### 📖 **Policies & Guidelines**  
-- **`CONTRIBUTING.md`** - How to contribute to any Bubbles repository
-- **`CODE_OF_CONDUCT.md`** - Community standards and behavior expectations
-- **`SECURITY.md`** - Security vulnerability reporting procedures
-- **`GOVERNANCE.md`** - Project structure, roles, and decision-making process
+### 📖 **Internal Policies & Guidelines**  
+- **`CONTRIBUTING.md`** - Team workflow and academic collaboration standards
+- **`CODE_OF_CONDUCT.md`** - Professional behavior and academic integrity standards
+- **`SECURITY.md`** - Security vulnerability reporting and data protection procedures
+- **`GOVERNANCE.md`** - Academic team structure, roles, and decision-making process
 
 ### ⚖️ **Legal & Attribution**
-- **`LICENSE`** - Proprietary license for academic project
-- **`CODEOWNERS`** - Internal code review assignments by domain
-- **`FUNDING.yml`** - Academic support and funding information
+- **`LICENSE`** - Proprietary academic license with usage restrictions
+- **`CODEOWNERS`** - Internal code review assignments by domain expertise
+- **`FUNDING.yml`** - Academic support and project funding information
 
 ---
 
-## 🏗️ Bubbles Ecosystem
+## 🏗️ Bubbles Academic Project Ecosystem
 
-### 📦 **Repository Structure**
-| Repository | Purpose | Tech Stack |
-|------------|---------|------------|
-| **`bubbles-web`** | React/Next.js frontend | TypeScript, React, Next.js |
-| **`bubbles-backend`** | Node.js API server | Node.js, Express, PostgreSQL |
-| **`bubbles-ai`** | ML models & algorithms | Python, PyTorch, scikit-learn |
-| **`bubbles-devops`** | Infrastructure & CI/CD | Docker, Kubernetes, Terraform |
-| **`.github`** | Org policies & templates | GitHub Actions, YAML |
+### 📦 **Repository Structure** (Private Academic Repositories)
+| Repository | Purpose | Tech Stack | Access |
+|------------|---------|------------|---------|
+| **`bubbles-web`** | React/Next.js frontend | TypeScript, React, Next.js | Team Only |
+| **`bubbles-backend`** | Node.js API server | Node.js, Express, PostgreSQL | Team Only |
+| **`bubbles-ai`** | ML models & algorithms | Python, PyTorch, scikit-learn | Team Only |
+| **`bubbles-devops`** | Infrastructure & CI/CD | Docker, Kubernetes, Terraform | Team Only |
+| **`.github`** | Internal policies & templates | GitHub Actions, YAML | Team + Advisors |
 
 ### 🎯 **Core Features**
 - **📥 News Aggregation** - Clean, personalized news feed
@@ -55,25 +55,25 @@ This repository contains organization-wide templates and policies that automatic
 
 ---
 
-## 🚀 Quick Start for Contributors
+## 🚀 Academic Collaboration Guidelines
 
-### 1️⃣ **Choose Your Domain**
-- 🎨 **Frontend** (`bubbles-web`) - React/TypeScript UI development
-- 🏗️ **Backend** (`bubbles-backend`) - Node.js API development  
-- 🤖 **AI/ML** (`bubbles-ai`) - Python ML model development
-- ⚙️ **DevOps** (`bubbles-devops`) - Infrastructure & automation
+### 1️⃣ **Access Levels**
+- 👥 **Core Team** - Full repository access and development rights
+- � **Academic Advisors** - Review access and consultation privileges  
+- 🌟 **Mentors** - Guidance access through Amazon mentorship program
+- 🔬 **Research Partners** - Limited access with signed agreements
 
-### 2️⃣ **Read the Guidelines**
-- 📚 [Contributing Guide](CONTRIBUTING.md) - Development workflow and standards
-- 🤝 [Code of Conduct](CODE_OF_CONDUCT.md) - Community behavior expectations
-- 🏛️ [Governance](GOVERNANCE.md) - Team structure and decision process
+### 2️⃣ **Review Our Standards**
+- 📚 [Contributing Guide](CONTRIBUTING.md) - Internal development workflow and academic collaboration standards
+- 🤝 [Code of Conduct](CODE_OF_CONDUCT.md) - Professional behavior and academic integrity expectations
+- 🏛️ [Governance](GOVERNANCE.md) - Academic team structure and decision-making process
 
 ### 3️⃣ **Collaboration Process**
-1. **Contact** the team lead for access and permissions
-2. **Review** academic and confidentiality agreements
-3. **Follow** our development workflow and standards
-4. **Coordinate** through established communication channels
-5. **Respect** proprietary nature and academic guidelines
+1. **Contact** the DevOps & Scrum Master (@Bahoyvs) for access requests
+2. **Review** academic confidentiality and intellectual property agreements
+3. **Follow** our development workflow and quality standards
+4. **Coordinate** through established academic and professional channels
+5. **Respect** proprietary nature and university intellectual property policies
 
 ---
 
@@ -95,53 +95,55 @@ This repository contains organization-wide templates and policies that automatic
 
 ---
 
-## 🔄 How This Repository Works
+## 🔄 Internal Development Workflow
 
-### ✨ **Automatic Application**
-When you create issues or PRs in ANY Bubbles repository, GitHub automatically:
-- 📝 Uses templates from `ISSUE_TEMPLATE/` and `PULL_REQUEST_TEMPLATE.md`
-- 👥 Assigns reviewers based on `CODEOWNERS` rules
-- 🏷️ Applies labels using automated workflows
-- 📋 Enforces contribution guidelines from `CONTRIBUTING.md`
+### ✨ **Automated Academic Standards**
+When team members create issues or PRs in ANY Bubbles repository, our system automatically:
+- 📝 Applies internal templates from `ISSUE_TEMPLATE/` and `PULL_REQUEST_TEMPLATE.md`
+- 👥 Assigns reviewers based on `CODEOWNERS` domain expertise rules
+- 🏷️ Applies appropriate labels using automated workflows
+- 📋 Enforces academic collaboration guidelines from `CONTRIBUTING.md`
 
-### 🔧 **Workflow Automation**
-- **Auto-labeling**: PRs are labeled based on files changed and title patterns
-- **Stale management**: Inactive issues/PRs are automatically marked and closed
-- **First-time contributors**: Welcome messages for new contributors
-- **Size labeling**: PRs labeled by number of lines changed
+### 🔧 **Quality Assurance Automation**
+- **Smart labeling**: PRs are categorized based on files changed and conventional title patterns
+- **Project maintenance**: Inactive issues/PRs are automatically flagged for review
+- **Academic workflow**: Welcome guidance for new academic collaborators
+- **Complexity assessment**: PRs labeled by scope and complexity for better review planning
 
 ---
 
-## 🛡️ Security & Privacy
+## 🛡️ Academic Security & Data Protection
 
-### 🔒 **Security First**
-- All repositories follow security best practices
-- Regular dependency updates and vulnerability scanning
+### 🔒 **Security-First Development**
+- All repositories follow enterprise-grade security best practices
+- Regular automated dependency updates and vulnerability scanning
 - Private security reporting via [security@bubblesnews.com](mailto:security@bubblesnews.com)
-- GDPR and privacy compliance for user data
+- GDPR compliance and academic data protection standards
+- Intellectual property protection for proprietary algorithms
 
-### 📊 **AI Ethics**
-- Transparent bias detection algorithms
-- Regular model auditing for fairness
-- User consent for data collection
-- Open source approach for community oversight
+### 📊 **Ethical AI Development**
+- Transparent bias detection algorithm development with academic oversight
+- Regular model auditing for fairness and academic research standards
+- User consent frameworks for data collection in academic research context
+- Responsible AI practices aligned with university research ethics
+- Academic peer review processes for AI model validation
 
 ---
 
-## 🌟 Community & Support
+## � Academic Support & Communication
 
-### 💬 **Get Help**
-- **🐞 Bug Reports**: Use issue templates in relevant repos
-- **💡 Feature Requests**: Submit via GitHub issues
-- **❓ Questions**: Use [GitHub Discussions](https://github.com/bubbles-org/discussions)
-- **🔒 Security Issues**: Email [security@bubblesnews.com](mailto:security@bubblesnews.com)
+### 💬 **Internal Communication Channels**
+- **🐞 Technical Issues**: Use internal issue templates in relevant repositories
+- **💡 Feature Development**: Submit via internal GitHub issues with academic review
+- **🔒 Security Concerns**: Email [security@bubblesnews.com](mailto:security@bubblesnews.com)
+- **🎓 Academic Guidance**: Contact faculty advisors through established channels
 
-### 🤝 **Internal Collaboration**
-Our team welcomes collaboration from:
-- 🎓 Academic advisors and faculty
-- 🧑‍💻 Amazon mentorship program mentors
-- 📰 Industry professionals and consultants
-- 🧠 Research collaborators and peer reviewers
+### 🤝 **Approved Academic Collaboration**
+Our team maintains professional relationships with:
+- 🎓 Bilkent University faculty advisors and academic supervisors
+- 🧑‍💻 Amazon mentorship program industry mentors and technical advisors
+- 📰 Industry professionals and subject matter experts (with NDAs)
+- 🧠 Academic research collaborators and peer review partners (approved basis)
 
 ---
 
@@ -153,48 +155,52 @@ Our team welcomes collaboration from:
 - 🔄 Advanced AI features in progress
 - 📅 Expected completion: Spring 2026
 
-### 🎯 **Milestones**
-- **Q4 2025**: Core platform MVP
-- **Q1 2026**: Advanced AI features
-- **Q2 2026**: Public beta launch
-- **Q3 2026**: Academic presentation & graduation
+### 🎯 **Academic Milestones & Deliverables**
+- **Q4 2025**: Core platform MVP and initial academic documentation
+- **Q1 2026**: Advanced AI feature implementation and academic paper draft
+- **Q2 2026**: Academic presentation preparation and project refinement
+- **Q3 2026**: Final academic presentation, thesis defense, and graduation
 
 ---
 
-## 📄 License & Attribution
+## 📄 Intellectual Property & Academic Attribution
 
-### ⚖️ **Proprietary License**
-This project is proprietary software developed for academic purposes. See [LICENSE](LICENSE) for details.
+### ⚖️ **Proprietary Academic License**
+This project is proprietary software developed for academic purposes at Bilkent University. All code, algorithms, and documentation are protected under university intellectual property policies. See [LICENSE](LICENSE) for detailed usage restrictions and academic permissions.
 
-### 🎓 **Academic Attribution**
-If you reference this project in academic work, please cite:
+### 🎓 **Academic Citation Requirements**
+If you reference this project in academic research, publications, or presentations, please cite:
 ```
 Bubbles: AI-Powered News Platform for Critical News Consumption
 İlhan Bahadır Yavaş, Ece Tuğba Cebeci, Hasan Kerem Demirel, Erdem Erdoğdu, İbrahim Erdem Atila
 Bilkent University, Information Systems and Technologies Department, 2026
+Senior Graduation Project - Proprietary Academic Research
 ```
 
 ---
 
-## 🔗 Links & Resources
+## 🔗 Academic Resources & Contact Information
 
-### 🌐 **Project Links**
-- **Live Demo**: Coming soon...
-- **Documentation**: [docs.bubblesnews.com](https://docs.bubblesnews.com)
-- **Discussions**: [GitHub Discussions](https://github.com/bubbles-org/discussions)
-
-### 🎓 **Academic Links**  
+### 🎓 **Academic Institution Links**  
 - **Bilkent University**: [bilkent.edu.tr](https://bilkent.edu.tr)
-- **Information Systems and Technologies**: [ctis.bilkent.edu.tr](https://ctis.bilkent.edu.tr)
-- **Amazon Mentorship**: [amazon mentorship program]
+- **Information Systems and Technologies Department**: [ctis.bilkent.edu.tr](https://ctis.bilkent.edu.tr)
+- **Amazon Mentorship Program**: Internal academic partnership
 
-### 📞 **Contact**
-- **Team Email**: [team@bubblesnews.com](mailto:team@bubblesnews.com)
-- **Security**: [security@bubblesnews.com](mailto:security@bubblesnews.com)
-- **Project Lead**: [@Bahoyvs](https://github.com/Bahoyvs)
+### 📞 **Academic Team Contact**
+- **Academic Team Email**: [team@bubblesnews.com](mailto:team@bubblesnews.com)
+- **Security & Data Protection**: [security@bubblesnews.com](mailto:security@bubblesnews.com)
+- **DevOps & Scrum Master**: [@Bahoyvs](https://github.com/Bahoyvs)
+- **Faculty Advisor Communication**: Through official university channels
+
+### 🔐 **Access Requests**
+For academic collaboration, research partnerships, or technical consultations, please contact our DevOps & Scrum Master with:
+- Institutional affiliation and academic credentials
+- Purpose and scope of collaboration request
+- Relevant confidentiality and intellectual property agreements
+- Timeline and expected deliverables
 
 ---
 
-⭐ **Star this repository** to stay updated with Bubbles development!
+🎓 **Academic Excellence** | 🔒 **Proprietary Research** | ⚡ **Innovation-Driven**
 
-**Built with ❤️ by the Bubbles team at Bilkent University 🎓**
+**Developed with academic rigor by the Bubbles research team at Bilkent University 🎓**
