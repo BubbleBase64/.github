@@ -1,4 +1,7 @@
-# Bubbles Organization – Academic Project Repository
+
+<img width="5487" height="1747" alt="Bubble logo2-02" src="https://github.com/user-attachments/assets/bdf04667-59c4-4f3a-9d6c-6a0f63f5ddca" />
+
+# Bubbles Organization
 
 Welcome to the **`.github`** repository for the Bubbles organization! This repository contains organization-wide community health files, templates, and policies that apply to all repositories in the Bubbles ecosystem.
 
