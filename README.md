@@ -73,11 +73,11 @@ This repository contains internal development standards and policies for our aca
 
 ## Academic Collaboration Guidelines
 
-### 1️⃣ **Access Levels**
+### **Access Levels**
 - **Core Team** - Full repository access and development rights
-- � **Academic Advisors** - Review access and consultation privileges  
-- 🌟 **Mentors** - Guidance access through Amazon mentorship program
-- 🔬 **Research Partners** - Limited access with signed agreements
+- **Academic Advisors** - Review access and consultation privileges  
+- **Mentors** - Guidance access through Amazon mentorship program
+- **Research Partners** - Limited access with signed agreements
 
 ### **Review Our Standards**
 - [Contributing Guide](CONTRIBUTING.md) - Internal development workflow and academic collaboration standards
