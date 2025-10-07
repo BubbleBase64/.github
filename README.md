@@ -1,7 +1,6 @@
 # Bubbles Organization – Academic Project Repository
 
-Wel### **Access Levels**
-- **Core Team** - Full repository access and developme## Academic Support & Communication
+Welcome to the **`.github`** repository for the Bubbles organization! This repository contains organization-wide community health files, templates, and policies that apply to all repositories in the Bubbles ecosystem.
 
 ### **Internal Communication Channels**
 - **Technical Issues**: Use internal issue templates in relevant repositories
