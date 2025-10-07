@@ -1,0 +1,67 @@
+# 🫧 Bubbles Organization - Code Owners
+# This file defines who automatically reviews PRs for different parts of the codebase
+# More info: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owners - these users are added as reviewers for ALL PRs unless overridden
+*        @bahadiryavas @ececebeci
+
+# Backend and API development
+/backend/*             @kdemirel849
+/api/*                 @kdemirel849
+/server/*              @kdemirel849
+**/backend/**          @kdemirel849
+**/api/**              @kdemirel849
+
+# AI/ML models and algorithms
+/ai/*                  @tuğbacebeci
+/ml/*                  @tuğbacebeci  
+/models/*              @tuğbacebeci
+**/ai/**               @tuğbacebeci
+**/models/**           @tuğbacebeci
+**/nlp/**              @tuğbacebeci
+
+# Frontend and UI
+/frontend/*            @ececebeci
+/web/*                 @ececebeci
+/ui/*                  @ececebeci
+/src/**/*.tsx          @ececebeci
+/src/**/*.jsx          @ececebeci
+/src/**/*.vue          @ececebeci
+**/frontend/**         @ececebeci
+**/components/**       @ececebeci
+
+# DevOps and Infrastructure
+/docker/*              @bahadiryavas
+/kubernetes/*          @bahadiryavas
+/.github/workflows/*   @bahadiryavas
+/infrastructure/*      @bahadiryavas
+**/Dockerfile         @bahadiryavas
+**/docker-compose*    @bahadiryavas
+**/k8s/**             @bahadiryavas
+
+# Database schemas and migrations
+/database/*            @kdemirel849
+/migrations/*          @kdemirel849
+**/database/**         @kdemirel849
+**/migrations/**       @kdemirel849
+**/*.sql               @kdemirel849
+
+# Documentation (all team members should review)
+/docs/*                @bahadiryavas @ececebeci @kdemirel849 @tuğbacebeci
+README.md              @bahadiryavas @ececebeci
+CONTRIBUTING.md        @bahadiryavas @ececebeci
+**/README.md           @bahadiryavas @ececebeci
+
+# Security and sensitive configs (requires multiple approvals)
+/security/*            @bahadiryavas @kdemirel849
+/.env*                 @bahadiryavas @kdemirel849
+/config/security/*     @bahadiryavas @kdemirel849
+**/security.md         @bahadiryavas @kdemirel849
+
+# Package management and dependencies
+package.json           @bahadiryavas @ececebeci
+package-lock.json      @bahadiryavas @ececebeci
+requirements.txt       @bahadiryavas @kdemirel849
+poetry.lock            @bahadiryavas @kdemirel849
+Pipfile*               @bahadiryavas @kdemirel849
+**/package.json        @bahadiryavas @ececebeci

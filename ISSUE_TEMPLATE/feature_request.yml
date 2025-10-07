@@ -1,0 +1,156 @@
+name: 💡 Feature Request
+description: Suggest a new idea or enhancement for the Bubbles platform
+title: "[Feature]: "
+labels: ["enhancement", "needs-discussion"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! Help us understand your idea better.
+        
+  - type: input
+    id: title
+    attributes:
+      label: 🎯 Feature Title
+      description: A clear, concise title for your feature request
+      placeholder: "Example: Add dark mode support to news reader"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: repository
+    attributes:
+      label: 📦 Target Repository
+      description: Which part of Bubbles would this feature affect?
+      options:
+        - bubbles-web (Frontend/UI)
+        - bubbles-backend (API/Server)
+        - bubbles-ai (ML/NLP Models)
+        - bubbles-devops (Infrastructure)
+        - Multiple repositories
+        - Not sure
+    validations:
+      required: true
+      
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🔍 Problem Statement
+      description: What problem does this feature solve? What user need does it address?
+      placeholder: |
+        Example: Many users read news in low-light environments and find the bright white background straining on their eyes, especially during evening hours.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: solution
+    attributes:
+      label: 💡 Proposed Solution
+      description: Describe your ideal solution in detail
+      placeholder: |
+        Example: Implement a dark mode toggle that:
+        - Changes background to dark gray (#1a1a1a)
+        - Adjusts text to light colors for readability
+        - Remembers user preference across sessions
+        - Automatically switches based on system theme
+    validations:
+      required: true
+      
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternative Solutions
+      description: Any alternative approaches you've considered?
+      placeholder: |
+        Example: 
+        - Auto dark mode based on time of day
+        - Multiple theme options (not just dark/light)
+        - High contrast mode for accessibility
+    validations:
+      required: false
+      
+  - type: dropdown
+    id: user_type
+    attributes:
+      label: 👥 Target User Type
+      description: Who would primarily benefit from this feature?
+      options:
+        - General users (all news readers)
+        - Power users (frequent app users)
+        - Content creators/journalists
+        - Developers/technical users
+        - Accessibility users
+        - Admin/moderators
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 📈 Priority Level
+      description: How important is this feature to you?
+      options:
+        - Nice to have (would be cool but not essential)
+        - Important (would significantly improve experience)
+        - Critical (blocking my usage of the app)
+    validations:
+      required: true
+      
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: 🎭 Use Cases & User Stories
+      description: Specific scenarios where this feature would be used
+      placeholder: |
+        As a [user type], I want [feature] so that [benefit].
+        
+        Example:
+        - As a night reader, I want dark mode so that I can read news without eye strain
+        - As a mobile user, I want auto dark mode so that it matches my phone's theme
+        - As an accessibility user, I want high contrast themes for better visibility
+    validations:
+      required: false
+      
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: ✅ Acceptance Criteria
+      description: How would you know this feature is complete?
+      placeholder: |
+        Example:
+        - [ ] Dark mode toggle button is visible in header
+        - [ ] Dark theme applies to all pages and components  
+        - [ ] User preference persists across browser sessions
+        - [ ] Theme respects system preference on first visit
+        - [ ] All text remains readable in dark mode
+    validations:
+      required: false
+      
+  - type: textarea
+    id: mockups
+    attributes:
+      label: 🎨 Mockups/References
+      description: Any mockups, sketches, or references to similar features?
+      placeholder: |
+        Upload images or provide links to:
+        - UI mockups or sketches
+        - Similar features in other apps
+        - Design inspiration
+    validations:
+      required: false
+      
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✅ Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to ensure this isn't already requested
+          required: true
+        - label: I have provided a clear problem statement and solution
+          required: true
+        - label: I understand this is a request and not a guarantee of implementation
+          required: true
+        - label: I'm willing to help with testing when this feature is developed
+          required: false

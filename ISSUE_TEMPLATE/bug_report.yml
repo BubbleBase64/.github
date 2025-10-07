@@ -1,0 +1,129 @@
+name: 🐞 Bug Report
+description: Report a reproducible bug or error in any Bubbles repository
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill out the sections below to help us fix the issue.
+        
+  - type: input
+    id: summary
+    attributes:
+      label: 🎯 Bug Summary
+      description: A clear and concise description of what the bug is
+      placeholder: "Example: User authentication fails on Safari browser"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: repository
+    attributes:
+      label: 📦 Affected Repository
+      description: Which Bubbles repository is affected?
+      options:
+        - bubbles-web (Frontend)
+        - bubbles-backend (API/Server)
+        - bubbles-ai (ML/NLP Models)
+        - bubbles-devops (Infrastructure)
+        - Other (specify in description)
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔄 Steps to Reproduce
+      description: Step-by-step instructions to reproduce the bug
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Expected Behavior
+      description: What you expected to happen
+      placeholder: "The page should load successfully and display the news feed"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Actual Behavior
+      description: What actually happened
+      placeholder: "Page shows 500 error and crashes"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🖥️ Environment
+      description: Your environment details
+      placeholder: |
+        - OS: [e.g. macOS 13.1, Windows 11, Ubuntu 22.04]
+        - Browser: [e.g. Chrome 108, Safari 16.1, Firefox 107]
+        - Node.js version: [e.g. 18.12.0] (if applicable)
+        - Python version: [e.g. 3.11.0] (if applicable)
+      value: |
+        - OS: 
+        - Browser: 
+        - Node.js version: 
+        - Python version: 
+    validations:
+      required: false
+      
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📋 Error Logs/Screenshots
+      description: Any relevant error messages, console logs, or screenshots
+      placeholder: |
+        Paste error logs here or drag & drop screenshots.
+        
+        ```
+        Error: Cannot read property 'map' of undefined
+            at NewsComponent.render (NewsComponent.jsx:42)
+        ```
+    validations:
+      required: false
+      
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 🚨 Priority Level
+      description: How critical is this bug?
+      options:
+        - Low (Minor issue, workaround available)
+        - Medium (Affects functionality, no workaround)
+        - High (Major feature broken)
+        - Critical (App crashes, security issue)
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✅ Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to ensure this is not a duplicate
+          required: true
+        - label: I have provided clear steps to reproduce the issue
+          required: true
+        - label: I have included environment details
+          required: false
+        - label: I have attached relevant logs/screenshots
+          required: false

@@ -1,0 +1,134 @@
+name: 🧹 Close Stale Issues and PRs
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Daily at 8 AM UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: 🔍 Mark and close stale issues and PRs
+        uses: actions/stale@v8
+        with:
+          # General settings
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          ascending: true
+          operations-per-run: 100
+
+          # Issues configuration
+          stale-issue-message: |
+            👋 This issue has been automatically marked as stale because it has had no activity for 30 days.
+            
+            **What happens next?**
+            - This issue will be closed in 7 days if no further activity occurs
+            - You can remove the `stale` label to keep it open
+            - Comment on this issue to reset the timer
+            
+            If this issue is still relevant, please:
+            - Add a comment with current status
+            - Update the issue description if needed
+            - Add the `help wanted` label if you need assistance
+            
+            Thank you for contributing to Bubbles! 🫧
+            
+          close-issue-message: |
+            🔒 This issue has been automatically closed due to inactivity.
+            
+            **Don't worry!** You can always:
+            - Reopen this issue if it's still relevant
+            - Create a new issue with updated information
+            - Reference this issue in related discussions
+            
+            Thanks for your interest in improving Bubbles! 🫧✨
+
+          # Pull Request configuration  
+          stale-pr-message: |
+            👋 This pull request has been automatically marked as stale because it has had no activity for 14 days.
+            
+            **What happens next?**
+            - This PR will be closed in 7 days if no further activity occurs
+            - You can remove the `stale` label to keep it open
+            - Push new commits or comment to reset the timer
+            
+            If this PR is still needed, please:
+            - Rebase on the latest main branch
+            - Resolve any merge conflicts
+            - Respond to review comments
+            - Add a comment with current status
+            
+            Thank you for contributing to Bubbles! 🫧
+            
+          close-pr-message: |
+            🔒 This pull request has been automatically closed due to inactivity.
+            
+            **Don't worry!** You can always:
+            - Reopen this PR if you want to continue working on it
+            - Create a new PR with the same changes
+            - Reference this PR in related discussions
+            
+            Thanks for your contribution to Bubbles! 🫧✨
+
+          # Timing configuration
+          days-before-stale: 30        # Issues become stale after 30 days
+          days-before-close: 7         # Stale items close after 7 more days
+          days-before-pr-stale: 14     # PRs become stale faster (14 days)
+          days-before-pr-close: 7      # Stale PRs close after 7 more days
+
+          # Labels
+          stale-issue-label: 'stale'
+          stale-pr-label: 'stale'
+          close-issue-label: 'auto-closed'
+          close-pr-label: 'auto-closed'
+
+          # Exemptions - these labels prevent staling
+          exempt-issue-labels: |
+            security
+            critical
+            pinned
+            help wanted
+            good first issue
+            epic
+            roadmap
+            on hold
+            needs discussion
+            
+          exempt-pr-labels: |
+            security
+            critical  
+            pinned
+            work in progress
+            on hold
+            needs discussion
+            breaking change
+
+          # Assignee exemptions
+          exempt-assignees: |
+            bahadiryavas
+            ececebeci
+            kdemirel849
+            tuğbacebeci
+
+          # Draft PRs are automatically exempt
+          exempt-draft-pr: true
+
+          # Don't mark issues/PRs with milestones as stale
+          exempt-all-milestones: true
+
+          # Only process issues and PRs (not discussions)
+          only-labels: ''
+          
+          # Enable debug logging
+          debug-only: false
+
+          # Remove stale label when activity resumes
+          remove-stale-when-updated: true
+
+          # Additional configuration
+          include-only-assigned: false
+          delete-branch: false # Don't auto-delete branches

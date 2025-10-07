@@ -1,0 +1,170 @@
+# 🏷️ Auto-labeling configuration based on file changes
+# More info: https://github.com/actions/labeler
+
+# Frontend/Web related changes
+"area: frontend":
+  - changed-files:
+    - any-glob-to-any-file: 
+      - 'frontend/**/*'
+      - 'web/**/*'
+      - 'src/**/*.{tsx,jsx,ts,js}'
+      - 'src/**/*.{css,scss,sass,less}'
+      - 'src/**/*.{html,vue}'
+      - '**/components/**/*'
+      - '**/pages/**/*'
+      - '**/styles/**/*'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'yarn.lock'
+      - 'next.config.js'
+      - 'vite.config.js'
+      - 'webpack.config.js'
+
+# Backend/API related changes  
+"area: backend":
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'backend/**/*'
+      - 'server/**/*'
+      - 'api/**/*'
+      - '**/routes/**/*'
+      - '**/controllers/**/*'
+      - '**/models/**/*'
+      - '**/middleware/**/*'
+      - '**/services/**/*'
+      - 'requirements.txt'
+      - 'Pipfile*'
+      - 'poetry.lock'
+      - 'pyproject.toml'
+      - '*.py'
+
+# AI/ML related changes
+"area: ai/ml":
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'ai/**/*'
+      - 'ml/**/*'
+      - 'models/**/*'
+      - '**/nlp/**/*'
+      - '**/training/**/*'
+      - '**/datasets/**/*'
+      - '**/*model*'
+      - '**/*.{pkl,joblib,h5,pb}'
+      - '**/notebooks/**/*'
+      - '**/*.ipynb'
+
+# DevOps/Infrastructure changes
+"area: devops":
+  - changed-files:
+    - any-glob-to-any-file:
+      - '.github/workflows/**/*'
+      - 'docker/**/*'
+      - 'kubernetes/**/*'
+      - 'k8s/**/*'
+      - 'infrastructure/**/*'
+      - 'terraform/**/*'
+      - 'Dockerfile*'
+      - 'docker-compose*'
+      - '.dockerignore'
+      - '**/*.tf'
+      - '**/*.yml'
+      - '**/*.yaml'
+
+# Documentation changes
+"area: docs":
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'docs/**/*'
+      - '**/*.md'
+      - '**/*.rst'
+      - '**/*.txt'
+      - 'README*'
+      - 'CONTRIBUTING*'
+      - 'CHANGELOG*'
+      - 'LICENSE*'
+
+# Database related changes
+"area: database":
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'database/**/*'
+      - 'migrations/**/*'
+      - '**/migrations/**/*'
+      - '**/*.sql'
+      - '**/schema/**/*'
+      - '**/seeds/**/*'
+
+# Configuration changes
+"area: config":
+  - changed-files:
+    - any-glob-to-any-file:
+      - '**/.env*'
+      - '**/config/**/*'
+      - '**/*.config.{js,ts,json}'
+      - '**/*rc*'
+      - '**/settings/**/*'
+      - '.gitignore'
+      - '.gitattributes'
+      - 'tsconfig.json'
+      - 'eslint*'
+      - 'prettier*'
+
+# Testing changes
+"area: tests":
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'tests/**/*'
+      - 'test/**/*'
+      - '**/__tests__/**/*'
+      - '**/*.{test,spec}.{js,ts,jsx,tsx,py}'
+      - '**/jest.config.*'
+      - '**/pytest.ini'
+      - '**/.coverage*'
+
+# Security related changes
+"security":
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'SECURITY.md'
+      - '**/security/**/*'
+      - '**/.env*'
+      - '**/auth/**/*'
+      - '**/authentication/**/*'
+      - '**/authorization/**/*'
+
+# Dependencies updates
+"dependencies":
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'package.json'
+      - 'package-lock.json'
+      - 'yarn.lock'
+      - 'requirements.txt'
+      - 'Pipfile*'
+      - 'poetry.lock'
+      - 'pyproject.toml'
+      - 'go.mod'
+      - 'go.sum'
+      - 'Cargo.toml'
+      - 'Cargo.lock'
+
+# Breaking changes indicators
+"breaking change":
+  - changed-files:
+    - any-glob-to-any-file:
+      - '**/migrations/**/*'
+      - '**/*.sql'
+  - head-branch: 
+    - 'breaking/**'
+    - 'major/**'
+
+# Good first issue (simple changes)
+"good first issue":
+  - changed-files:
+    - any-glob-to-any-file:
+      - '**/*.md'
+      - 'docs/**/*'
+  - head-branch:
+    - 'docs/**'
+    - 'typo/**'
+    - 'fix/typo/**'

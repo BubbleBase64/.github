@@ -1,6 +1,15 @@
-# 🫧 Bubbles – AI-Powered News Platform
+# 🫧 Bubbles Organization – Community Health Repository
+
+Welcome to the **`.github`** repository for the Bubbles organization! This special repository contains organization-wide community health files, templates, and policies that apply to all repositories in the Bubbles ecosystem.
+
+> **🎓 Academic Project**: This is a senior graduation project at Bilkent University, supported by the Amazon mentorship program.
+
+## 🌐 About Bubbles
 
 Bubbles is an innovative, AI-enhanced web platform that transforms the way people consume news. By combining cutting-edge natural language processing with user-centered design, Bubbles delivers a personalized, critical, and socially engaging news experience.
+
+### 🎯 Our Mission
+> "Consume critically. Understand clearly. Engage consciously."
 
 ## 🌐 Live Demo
 Coming soon...

@@ -1,0 +1,130 @@
+# 🎯 Auto-labeling based on PR title patterns
+# More info: https://github.com/TimonVS/pr-labeler-action
+
+# Type labels based on conventional commit format
+"type: feat":
+  - "feat*"
+  - "feature*" 
+  - "✨*"
+
+"type: fix":
+  - "fix*"
+  - "bugfix*"
+  - "🐛*"
+  - "🐞*"
+
+"type: docs":
+  - "docs*"
+  - "documentation*"
+  - "📚*"
+  - "📝*"
+
+"type: style":
+  - "style*"
+  - "formatting*"
+  - "💄*"
+
+"type: refactor":
+  - "refactor*"
+  - "refactoring*"
+  - "♻️*"
+
+"type: perf":
+  - "perf*"
+  - "performance*"
+  - "⚡*"
+
+"type: test":
+  - "test*"
+  - "testing*"
+  - "🧪*"
+  - "✅*"
+
+"type: chore":
+  - "chore*"
+  - "maintenance*"
+  - "🔧*"
+
+"type: ci":
+  - "ci*"
+  - "continuous integration*"
+  - "github actions*"
+  - "workflow*"
+  - "👷*"
+
+# Scope labels
+"scope: web":
+  - "*web*"
+  - "*frontend*"
+  - "*ui*"
+  - "*react*"
+  - "*next*"
+
+"scope: backend":
+  - "*backend*"
+  - "*api*"
+  - "*server*"
+  - "*node*"
+
+"scope: ai":
+  - "*ai*"
+  - "*ml*"
+  - "*model*"
+  - "*nlp*"
+  - "*bias*"
+  - "*algorithm*"
+
+"scope: devops":
+  - "*devops*"
+  - "*docker*"
+  - "*kubernetes*"
+  - "*k8s*"
+  - "*infrastructure*"
+  - "*deployment*"
+
+# Priority indicators
+"priority: high":
+  - "*urgent*"
+  - "*critical*"
+  - "*hotfix*"
+  - "*security*"
+  - "*🚨*"
+  - "*🔥*"
+
+"priority: low":
+  - "*minor*"
+  - "*typo*"
+  - "*cleanup*"
+
+# Breaking changes
+"breaking change":
+  - "*BREAKING*"
+  - "*breaking change*"
+  - "*💥*"
+
+# Work in progress
+"work in progress":
+  - "*WIP*"
+  - "*work in progress*"
+  - "*draft*"
+  - "*🚧*"
+
+# Dependencies
+"dependencies":
+  - "*deps*"
+  - "*dependencies*"
+  - "*dependency*"
+  - "*update*"
+  - "*upgrade*"
+  - "*⬆️*"
+
+# Security
+"security":
+  - "*security*"
+  - "*vulnerability*"
+  - "*CVE*"
+  - "*auth*"
+  - "*authentication*"
+  - "*authorization*"
+  - "*🔒*"
+  - "*🛡️*"
