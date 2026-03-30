@@ -35,7 +35,7 @@ It enables users to view stories from multiple perspectives and promotes transpa
 | DevOps & Scrum Master | [@Bahoyvs](https://github.com/Bahoyvs) |
 | NLP & AI Lead | [@EceTugbaCebeci](https://github.com/EceTugbaCebeci) |
 | Backend Lead | [@keremdemirell](https://github.com/keremdemirell) |
-| Frontend Lead | [@erdemerdogdu](https://github.com/erdemerdogdu) |
+| NLP & AI Developer | [@erdemerdogdu](https://github.com/erdemerdogdu) |
 | Backend & Integration | [@ErdemAtila](https://github.com/ErdemAtila) |
 
 **Academic Advisor:** Bilkent University Faculty  
